@@ -1,0 +1,230 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#hero {
+    background-image: url(./images/Background/hero_inner_page.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 50%;
+}
+
+.hero1 {
+    background: linear-gradient(to right, rgb(35, 35, 35), rgb(35, 35, 35));
+    padding: 20px;
+}
+
+.home {
+    font-family: "Montserrat", sans-serif;
+}
+
+.heading {
+    font-family: "Montserrat", sans-serif;
+}
+
+.text {
+    font-family: "Roboto", sans-serif;
+}
+
+.icon {
+    font-size: 40px;
+}
+
+.logoheading {
+    font-size: 17px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+
+.logotext {
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+}
+
+.num {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+
+.project {
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+}
+
+.btn1 {
+    margin-left: 140px;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+}
+
+.look {
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.ourpro {
+    font-family: "Montserrat", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.parag {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+}
+
+#backimg {
+    background-image: url(./images/Background/background_3.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 40px 15px;
+}
+
+.skill {
+    font-size: 35px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+}
+.btn2 {
+    border: 1px solid white;
+}
+
+.warn {
+    background-color: rgb(251, 189, 2);
+}
+
+.stable {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+
+.btn2 {
+    font-size: 13px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 140px;
+}
+
+.service {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+
+.parag1 {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+#prog{
+    background-color:rgb(251, 189, 2) ;
+}
+#footimg {
+    background-image: url(./images/Background/background-footer.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 120px 15px;
+}
+
+.balt {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+.headquart {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+
+.box {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+.loc {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+.every {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+
+.net {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+.footicon {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+.get {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+.activity {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+.com {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+.colicon{
+    background-color:rgb(251, 189, 2);
+    height: 50px;
+    width: 50px;
+}
+
+@media only screen and (min-width:768px){
+    .hero1 {
+        background: linear-gradient(to right, transparent,transparent);
+        padding: 40px;
+    }
+    .heading{
+        font-size: 35px;
+        font-weight: 800;
+    }
+    .onet{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .num{
+        font-size: 35px;
+        font-weight: 700;
+    }
+.icon {
+    font-size: 50px;
+}
+.ournet{
+    padding-top: 150px;
+}
+}
+
+@media only screen and (min-width:992px){
+.per{
+    padding-top: 100px;
+}
+}
+@media only screen and (min-width:1200px){
+    .navbar{
+        height: 100px;
+    }
+}

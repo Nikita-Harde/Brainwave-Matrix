@@ -1,0 +1,601 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Template</title>
+    <link rel="stylesheet" href="./services.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid p-0 overflow-hidden">
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <div class="row m-0">
+                        <div class="col-6">
+                            <button class="navbar-toggler mt-3" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvas" aria-controls="offcanvasExample" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon d-lg-none"></span>
+                            </button>
+                        </div>
+                        <div class="col-6 col-md-3 ms-md-5 ps-md-5 col-lg-9 pe-lg-5 me-lg-5">
+                            <a class="navbar-brand" href="#"><img src="./images/Background/logo-yellow-black.png"
+                                    class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="collapse navbar-collapse text-center" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item me-3">
+                                <a class="nav-link active" aria-current="page" href="./industry.html">Home</a>
+                            </li>
+                            <li class="nav-item me-3 ">
+                                <a class="nav-link " aria-current="page" href="./About.html">AboutUs</a>
+                            </li>
+                            <li class="nav-item me-3">
+                                <a class="nav-link " aria-current="page" href="./services.html">Services</a>
+                            </li>
+                           <!-- <li class="nav-item dropdown me-3">
+                                <a class="nav-link dropdown-toggle" href="./About.html" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    About Us
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="./About.html">Overview</a></li>
+                                    <li><a class="dropdown-item" href="./About.html">History</a></li>
+                                    <li><a class="dropdown-item" href="./About.html">Clients & Testimonials</a></li>
+                                    <li><a class="dropdown-item" href="./About.html">Personal biography</a></li>
+                                    <li><a class="dropdown-item" href="./About.html">Team members</a></li>
+                                    <li><a class="dropdown-item" href="./About.html">Location</a></li>
+                                    <li><a class="dropdown-item" href="./About.html">Contact</a></li>
+                                    <li><a class="dropdown-item" href="./About.html">Under Construction</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown me-3">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Overview</a></li>
+                                    <li><a class="dropdown-item" href="#">Single Services</a></li>
+                                    <li><a class="dropdown-item" href="#">Price Packages</a></li>
+                                    <li><a class="dropdown-item" href="#">Our Expertize</a></li>
+                                    <li><a class="dropdown-item" href="#">Cost Calaculator</a></li>
+                                    <li><a class="dropdown-item" href="#">FAQ</a></li>
+                                </ul>-->
+                            </li>
+                            <li class="nav-item dropdown me-3">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Projects
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Portfolio Grid</a></li>
+                                    <li><a class="dropdown-item" href="#">Portfolio Tiles</a></li>
+                                    <li><a class="dropdown-item" href="#">Single Project</a></li>
+                                </ul>
+                            <li class="nav-item dropdown me-3">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Blog/News
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Blog iist</a></li>
+                                    <li><a class="dropdown-item" href="#">Blog grid</a></li>
+                                    <li><a class="dropdown-item" href="#">Blog Tiles</a></li>
+                                    <li><a class="dropdown-item" href="#">Single Post</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown me-3">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Shop
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Products</a></li>
+                                    <li><a class="dropdown-item" href="#">Single Product</a></li>
+                                    <li><a class="dropdown-item" href="#">Shop Pages</a></li>
+                                </ul>
+                            </li>
+                            <section class="mt-3 d-lg-none">
+                                <div>
+                                    <i class="fa-regular fa-clock"></i>
+                                    <h6>Working hours:</h6>
+                                    <span>Mon - Sat 8.00 - 18.00</span>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-mobile-screen"></i>
+                                    <h6>Call Us:</h6>
+                                    <span>(+1) 555 234-8765</span>
+                                </div>
+                            </section>
+                            <div class="mt-3 d-lg-none">
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasLabel"><a class="navbar-brand" href="#"><img
+                                src="./images/Background/logo-yellow-black.png" class="img-fluid">
+                        </a></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                        <div class="container-fluid ms-5 ps-5">
+                            <ul class="navbar-nav">
+                                <li class="nav-item me-3">
+                                    <a class="nav-link active" aria-current="page" href="./industry.html">Home</a>
+                                </li>
+                                <li class="nav-item me-3">
+                                    <a class="nav-link " aria-current="page" href="./About.html">AboutUs</a>
+                                </li>
+                                <li class="nav-item me-3 ">
+                                    <a class="nav-link " aria-current="page" href="./services.html">Services</a>
+                                </li>
+                              <!--  <li class="nav-item dropdown me-3">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        About Us
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Overview</a></li>
+                                        <li><a class="dropdown-item" href="#">History</a></li>
+                                        <li><a class="dropdown-item" href="#">Clients & Testimonials</a></li>
+                                        <li><a class="dropdown-item" href="#">Personal biography</a></li>
+                                        <li><a class="dropdown-item" href="#">Team members</a></li>
+                                        <li><a class="dropdown-item" href="#">Location</a></li>
+                                        <li><a class="dropdown-item" href="#">Contact</a></li>
+                                        <li><a class="dropdown-item" href="#">Under Construction</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown me-3">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Services
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Overview</a></li>
+                                        <li><a class="dropdown-item" href="#">Single Services</a></li>
+                                        <li><a class="dropdown-item" href="#">Price Packages</a></li>
+                                        <li><a class="dropdown-item" href="#">Our Expertize</a></li>
+                                        <li><a class="dropdown-item" href="#">Cost Calaculator</a></li>
+                                        <li><a class="dropdown-item" href="#">FAQ</a></li>
+                                    </ul>
+                                </li>-->
+                                <li class="nav-item dropdown me-3">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Projects
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Portfolio Grid</a></li>
+                                        <li><a class="dropdown-item" href="#">Portfolio Tiles</a></li>
+                                        <li><a class="dropdown-item" href="#">Single Project</a></li>
+                                    </ul>
+                                <li class="nav-item dropdown me-3">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Blog/News
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Blog iist</a></li>
+                                        <li><a class="dropdown-item" href="#">Blog grid</a></li>
+                                        <li><a class="dropdown-item" href="#">Blog Tiles</a></li>
+                                        <li><a class="dropdown-item" href="#">Single Post</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown me-3">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Shop
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Products</a></li>
+                                        <li><a class="dropdown-item" href="#">Single Product</a></li>
+                                        <li><a class="dropdown-item" href="#">Shop Pages</a></li>
+                                    </ul>
+                                </li>
+                                <section class="mt-3 d-lg-none">
+                                    <div>
+                                        <i class="fa-regular fa-clock"></i>
+                                        <h6>Working hours:</h6>
+                                        <span>Mon - Sat 8.00 - 18.00</span>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-mobile-screen mt-5"></i>
+                                        <h6>Call Us:</h6>
+                                        <span>(+1) 555 234-8765</span>
+                                    </div>
+                                </section>
+                                <div class="mt-5 d-lg-none">
+                                    <i class="fa-brands fa-facebook-f pe-3"></i>
+                                    <i class="fa-brands fa-twitter pe-3"></i>
+                                    <i class="fa-solid fa-magnifying-glass pe-3"></i>
+                                </div>
+                            </ul>
+
+                        </div>
+                    </nav>
+
+                </div>
+            </div>
+        </header>
+        <main>
+            <div id="hero">
+                <ul class="list-unstyled px-4 pt-5 mb-1">
+                    <li><a href=# class=" home text-decoration-none text-white mx-md-4 pb-md-0">HOME <span>. ABOUT
+                                US</span></a></li>
+                </ul>
+                <div class="hero1 text-white">
+                    <h2 class="heading">Services</h2>
+                    <div class="text">Capitalise on low hanging fruit to identify a ballpark value added activity to
+                        beta test.
+                        Override the digital divide with additional clickthroughs.</div>
+                </div>
+            </div>
+
+            <section id="img" class="row m-0 m-3">
+                <div class="img1 col-lg-4 mt-5">
+                    <div id="imgtext1">
+                        Automotive parts and systems
+                    </div>
+                </div>
+                <div class="img2 mt-5 col-lg-4 ">
+                    <div id="imgtext2">
+                        Power & Energy
+                    </div>
+                </div>
+                <div class="img3 mt-5 col-lg-4 ">
+                    <div id="imgtext3">
+                        Mechanical Engineering
+                    </div>
+                </div>
+                <div class="img4 mt-5 col-lg-4">
+                    <div id="imgtext4">
+                        Construction & Engineering
+                    </div>
+                </div>
+                <div class="img5 mt-5 col-lg-4">
+                    <div id="imgtext5">
+                        Maintenance
+                    </div>
+                </div>
+                <div class="img6 mt-5 col-lg-4">
+                    <div id="imgtext6">
+                        Maintenance
+                    </div>
+                </div>
+            </section>
+
+            <section class="p-4">
+                <div class="row m-0">
+                    <div class="col-lg-4">
+                        <span class="latest pb-5">LATEST PROJECT</span>
+
+                        <h3 class="heading3 pt-2 pb-4"><span
+                                style="border-bottom:4px solid #FBBD02; padding-top: 20px;">Wind</span> Energy Plant
+                        </h3>
+                    </div>
+                    <div class="col-lg-8">
+                        <p class="text1 mb-5">Bring to the table win-win survival strategies to ensure proactive
+                            domination.
+                            At
+                            the
+                            end of the day,
+                            going forward, a new normal that has evolved from generation X is on the runway heading
+                            towards
+                            a
+                            streamlined cloud solution. Capitalise on low hanging fruit to identify a ballpark.
+                        </p>
+                    </div>
+                </div>
+               <!-- <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./images/Illustration/portfolio_05-320x240.jpg" class="d-block w-100" alt="img1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/Illustration/portfolio_04-320x240.jpg" class="d-block w-100" alt="img2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/Illustration/portfolio_07-320x240.jpg" class="d-block w-100" alt="img3">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/Illustration/portfolio_03-320x240.jpg" class="d-block w-100" alt="img4">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/Illustration/portfolio_02-320x240.jpg" class="d-block w-100" alt="img5">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/Illustration/portfolio_01-320x240.jpg" class="d-block w-100" alt="img6">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/Illustration/portfolio_06-320x240.jpg" class="d-block w-100" alt="img7">
+                        </div>
+                    </div>
+                </div>-->
+            </section>
+            <section class="bg-warning p-3 row m-0">
+                <div class="col-lg-8">
+                    <span>CONTACT US & LEARN MORE ABOUT US</span>
+                    <h2 class="stable">Looking for a reliable & stable partner?</h2>
+                </div>
+                <div class="mt-5 col-lg-4 mt-lg-3">
+                    <a href="#"
+                        class="btn1 text-decoration-none rounded-0 text-black px-2 py-2 px-lg-5 py-lg-3 mx-lg-5">CONTACT
+                        US</a>
+                </div>
+            </section>
+            <div id="backfactory" class="text-center text-white row m-0">
+                <span class="offer">WHAT WE OFFER</span>
+                <h2 class="heading4 mt-3">Our company services</h2>
+                <p class="text2 m-3">Holistically pontificate installed base portals after maintainable products.
+                    Nanotechnology immersion
+                    along the highway will close the loop on focusing solely on the bottom line.</p>
+                <div class="col-md-6  col-lg-3">
+                    <i class="fa-solid fa-fire-flame-simple text-warning icon mt-5"></i>
+                    <h4 class="mt-3 iconheading">Energy & Utilities</h4>
+                    <p class="m-3 icontext">Efficiently unleash cross-media information without cross-media value.
+                        Quickly maximize timely
+                        deliverables.</p>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <i class="fa-regular fa-clock text-warning icon mt-5"></i>
+                    <h4 class="mt-3 iconheading">Communication Services</h4>
+                    <p class="m-3 icontext">Nanotechnology immersion along the highway will close the loop on focusing
+                        solely on the bottom line.</p>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <i class="fa-brands fa-android  text-warning icon mt-5"></i>
+                    <h4 class="mt-3 iconheading">Internet of Things</h4>
+                    <p class="m-3 icontext"> Quickly maximize timely deliverables for real-time schemas. Dramatically
+                        maintain click solutions.</p>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <i class="fa-brands fa-android  text-warning icon mt-5"></i>
+                    <h4 class="mt-3 iconheading">Product Development</h4>
+                    <p class="m-3 icontext">Professionally cultivate customer service with ideas. Dynamically innovate
+                        resource-leveling service.</p>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <i class="fa-brands fa-android  text-warning icon mt-5"></i>
+                    <h4 class="mt-3 iconheading">Industrial Automation</h4>
+                    <p class="m-3 icontext">Nanotechnology immersion along the highway will close the loop on focusing
+                        solely on the bottom line.</p>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <i class="fa-brands fa-android  text-warning icon mt-5"></i>
+                    <h4 class="mt-3 iconheading">Artificial Intelligence</h4>
+                    <p class="m-3 icontext">Keeping your eye on the ball while performing a deep dive on the start-up
+                        product mentality.p>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <i class="fa-solid fa-flask-vial text-warning icon mt-5"></i></i>
+                    <h4 class="mt-3 iconheading">Medical Devices</h4>
+                    <p class="m-3 icontext">Synergize resource relationships via premier markets. Dynamically innovate
+                        resource-leveling service.</p>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <i class="fa-solid fa-industry text-warning icon mt-5"></i>
+                    <h4 class="mt-3 iconheading">Industrial Manufacturing</h4>
+                    <p class="m-3 icontext">Seamlessly empower fully researched growth strategies and interoperable
+                        internal or “organic“ sources.</p>
+                </div>
+            </div>
+            <section class="m-4 row m-0">
+                <span class="service">OUR SERVICES</span>
+                <h2 class="heading5">Industries Served</h2>
+                <p class="text3">Override the digital divide with additional clickthroughs from DevOps. Nanotechnology
+                    immersion along
+                    the information highway will close the loop on focusing solely on the bottom line.</p>
+                <div class="col-md-6  col-lg-3">
+                    <div class="bg-warning rounded-circle circle mt-5">
+                        <i class="fa-solid fa-jet-fighter-up text-white iconwar ms-3 mt-3"></i>
+                    </div>
+                    <h4 class="circleicon mt-3 mb-3">Aerospace</h4>
+                    <p class="circletext">Automotive components and assemblies are subject to performance evaluations
+                        according to industry
+                        standards. </p>
+                </div>
+                <div class="col-md-6  col-lg-3">
+                    <div class="bg-warning rounded-circle circle mt-5">
+                        <i class="fa-solid fa-car-side text-white iconwar ms-3 mt-3"></i>
+                    </div>
+                    <h4 class="circleicon mt-3 mb-3">Automotive</h4>
+                    <p class="circletext">The materials selection process and safety protocols rank aerospace among the
+                        most
+                        carefully
+                        regulated in industry today. </p>
+                </div>
+                <div class="col-md-6  col-lg-3">
+                    <div class="bg-warning rounded-circle circle mt-5">
+                        <i class="fa-brands fa-squarespace text-white iconwar ms-3 mt-3"></i>
+                    </div>
+                    <h4 class="circleicon mt-3 mb-3">Coatings & Plating</h4>
+                    <p class="circletext">Testing materials with a desired outward appearance and protection from
+                        corrosion,
+                        heat, abrasion, and chemicals. </p>
+                </div>
+                <div class="col-md-6  col-lg-3">
+                    <div class="bg-warning rounded-circle circle mt-5">
+                        <i class="fa-solid fa-bicycle text-white iconwar ms-3 mt-3"></i>
+                    </div>
+                    <h4 class="circleicon mt-3 mb-3">Consumer Products & Toys</h4>
+                    <p class="circletext">Industrial has enhanced our services to include the latest technology for
+                        testing
+                        toys and childrens products. </p>
+                </div>
+                <div class="col-md-6  col-lg-3">
+                    <div class="bg-warning rounded-circle circle mt-5">
+                        <i class="fa-solid fa-droplet text-white iconwar ms-3 mt-3"></i>
+                    </div>
+                    <h4 class="circleicon mt-3 mb-3">Oil & Gas</h4>
+                    <p class="circletext">Our scope of work includes testing for structural fabrication, pressure
+                        systems
+                        and material selection. </p>
+                </div>
+                <div class="col-md-6  col-lg-3">
+
+                    <div class="bg-warning rounded-circle circle mt-5">
+                        <i class="fa-solid fa-droplet text-white iconwar ms-3 mt-3"></i>
+                    </div>
+                    <h4 class="circleicon mt-3 mb-3">Plastics & Composites</h4>
+                    <p class="circletext">Physcial, mechanical testing, spectrometric and microscopic characterization
+                        that
+                        benefit our client’s product development. </p>
+
+                </div>
+                <div class="col-md-6  col-lg-3">
+                    <div class="bg-warning rounded-circle circle mt-5">
+                        <i class="fa-solid fa-droplet text-white iconwar ms-3 mt-3"></i>
+                    </div>
+                    <h4 class="circleicon mt-3 mb-3">Packaging & Plastics</h4>
+                    <p class="circletext">For many years, Industrial has conducted field studies involving the public
+                        for
+                        the purposes of product screening. </p>
+
+                </div>
+                <div class="col-md-6  col-lg-3">
+                    <div class="bg-warning rounded-circle circle mt-5">
+                        <i class="fa-solid fa-atom text-white iconwar ms-3 mt-3"></i>
+                    </div>
+                    <h4 class="circleicon mt-3 mb-3">Nuclear</h4>
+                    <p class="circletext">Routine testing includes data collection for CMTR generation using mechanical,
+                        chemical and metallurgical techniques. </p>
+                </div>
+            </section>
+            <section class="m-3 mt-5 row m-0 ">
+                <span class="email">E-MAIL FORM</span>
+                <h3 class="formheading">Say Hello</h3>
+                <p class="formtext">Capitalise on low hanging fruit to identify a ballpark value added activity to beta
+                    test. Override
+                    the digital divide with additional clickthroughs from DevOps. </p>
+                <section class="mt-5 mb-3 col-md-6">
+                    <img src="./images/Illustration/inner_lab_4-1200x640.jpg" alt="lab" height="100%" width="100%"
+                        class="img-fluid">
+                </section>
+                <div class="col-md-6">
+                    <form>
+                        <label for="name" class="form-label">Your Name</label>
+                        <input type="text" id="name" class="form-control w-75">
+                        <label for="email" class="form-label">Your Email</label>
+                        <input type="email" id="email" class="form-control w-75">
+                        <label for="sub" class="form-label">Subject</label>
+                        <input type="text" id="sub" class="form-control w-75">
+                        <label for="msg" class="form-label">Your Message</label>
+                        <textarea  type="text"  id="msg" class="form-control w-75"></textarea>
+                        <button type="button" class="btn btn-warning mt-4">SEND</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div id="footimg">
+                <section class="row m-0">
+                    <div class="col-lg-3 px-lg-0 ">
+                        <span class=" balt px-3 text-white px-lg-0">BALTIMORE</span>
+                        <h4 class=" headquart px-3 text-white mt-3 px-lg-0">Headquarters</h4>
+                        <p class=" box px-3 text-white px-lg-0">Interactively coordinate proactive “outside the box“
+                            thinking.
+                        </p>
+                        <div class="mb-2">
+                            <a href="#" class="text-decoration-none text-white"><i
+                                    class="fa-solid fa-phone px-3 px-lg-0"></i><span>+ 1
+                                    555 2367890</span></a>
+                        </div>
+                        <div class="mb-2">
+                            <a href="#" class="text-decoration-none text-white"><i
+                                    class="fa-solid fa-link px-3 px-lg-0"></i><span>www.bold-themes.com</span></a>
+                        </div>
+                        <div class="mb-2">
+                            <a href="#" class="text-decoration-none text-white"><i
+                                    class="fa-solid fa-envelope px-3 px-lg-0"></i><span>info@bold-themes.com</span></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 px-lg-0 ">
+                        <section class="row m-0">
+                            <div class="mt-5 mx-3 col-md-6 mx-lg-0 mt-lg-0">
+                                <span class="loc text-white">LOCATIONS</span>
+                                <h4 class="every text-white mt-lg-3">We Are Everywhere</h4>
+                                <div class="mt-5">
+                                    <img src="./images/Illustration/world-dot-map-white-320x156.png" alt="map"
+                                        width="100%">
+                                </div>
+                            </div>
+                            <div class="ournet mt-5 col-md-5 mt-lg-0">
+                                <span class="net text-white mx-3 mx-lg-0">OUR NETWORK</span>
+                                <div class=" footicon mt-3">
+                                    <a href="#" class="text-decoration-none text-white">
+                                        <i class="fa-solid fa-location-dot px-3 px-lg-0"></i><span>Chicago: + 1 555 4529
+                                            148</span></a>
+                                </div>
+                                <div class="footicon">
+                                    <a href="#" class="text-decoration-none text-white">
+                                        <i class="fa-solid fa-location-dot px-3 px-lg-0"></i><span>Amsterdam: + 1 555
+                                            9345
+                                            678</span></a>
+                                </div>
+                                <div class="footicon">
+                                    <a href="#" class="text-decoration-none text-white">
+                                        <i class="fa-solid fa-location-dot px-3 px-lg-0"></i><span>Berlin: + 1 555 236
+                                            7890</span></a>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class=" mt-5 col-lg-3 px-lg-0 mt-lg-0">
+                        <span class="get text-white">GET IN TOUCH</span>
+                        <h4 class="activity text-white mt-2 mb-3">Follow Our Activity</h4>
+                        <p class="com text-white col-md-5 col-lg-12">Interactively coordinate proactive e-commerce via
+                            process-centric “outside
+                            the box“ thinking.</p>
+                        <div class="d-flex">
+                            <div class="colicon text-white rounded-circle me-2">
+                                <i class="fa-brands fa-facebook-f mx-3 mt-3"></i>
+                            </div>
+                            <div class="colicon text-white rounded-circle me-2">
+                                <i class="fa-brands fa-twitter mx-3 mt-3"></i>
+                            </div>
+                            <div class="colicon text-white rounded-circle me-2">
+                                <i class="fa-brands fa-linkedin-in mx-3 mt-3"></i>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div id="copyright" class="text-white mt-5 text-center pt-md-5">
+                    <p>Copyright &copy; 2024 All rights reserved!</p>
+                    <p>Created By:Harde Nikita</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

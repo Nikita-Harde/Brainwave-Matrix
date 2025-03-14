@@ -1,0 +1,435 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#hero{
+    background-image: url(./images/Background/background_2.jpg);
+    background-size: cover;
+    background-position: center center;
+  padding: 100px 0px;
+}
+.press{
+    font-family: "Montserrat", sans-serif;
+}
+.heading{
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "Montserrat", sans-serif;
+}
+.text{
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+}
+#heading1{
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+}
+#img{
+    padding: 30px;
+}
+.img1{
+    background-image: url(./images/Background/inner_1.jpg);
+    background-size: cover;
+    background-position: center center;
+  padding: 100px 0px;
+  position: relative;
+}
+#imgtext1{
+    background-image: linear-gradient(to right,rgba(255, 255, 255,0.9),rgba(255, 255, 255,0.9));
+    margin-top: 10px;
+    padding: 10px;
+    position: absolute;
+    font-size: 25px;
+    font-weight: 700;
+}
+.img2{
+    background-image: url(./images/Background/inner_2.jpg);
+    background-size: cover;
+    background-position: center center;
+  padding: 100px 0px;
+  position: relative;
+}
+#imgtext2{
+    background-image: linear-gradient(to right,rgba(255, 255, 255,0.9),rgba(255, 255, 255,0.9));
+    margin-top: 50px;
+    position: absolute;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 10px;
+}
+.img3{
+    background-image: url(./images/Background/inner_3.jpg);
+    background-size: cover;
+    background-position: center center;
+  padding: 100px 0px;
+  position: relative;
+}
+#imgtext3{
+    background-image: linear-gradient(to right,rgba(255, 255, 255,0.9),rgba(255, 255, 255,0.9));
+    padding: 21px;
+    margin-top: 30px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 649;
+}
+.img4{
+    background-image: url(./images/Background/inner_4.jpg);
+    background-size: cover;
+    background-position: center center;
+  padding: 100px 0px;
+  position: relative;
+}
+#imgtext4{
+    background-image: linear-gradient(to right,rgba(255, 255, 255,0.9),rgba(255, 255, 255,0.9));
+    margin-top: 10px;
+    padding: 10px;
+    position: absolute;
+    font-size: 25px;
+    font-weight: 700;
+}
+.img5{
+    background-image: url(./images/Background/inner_5.jpg);
+    background-size: cover;
+    background-position: center center;
+  padding: 100px 0px;
+  position: relative;
+}
+#imgtext5{
+    background-image: linear-gradient(to right,rgba(255, 255, 255,0.9),rgba(255, 255, 255,0.9));
+    margin-top: 50px;
+    position: absolute;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 10px;
+}
+.img6{
+    background-image: url(./images/Background/inner_6.jpg);
+    background-size: cover;
+    background-position: center center;
+  padding: 100px 0px;
+  position: relative;
+}
+#imgtext6{
+    background-image: linear-gradient(to right,rgba(255, 255, 255,0.9),rgba(255, 255, 255,0.9));
+    margin-top: 50px;
+    position: absolute;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 10px;
+}
+.latest{
+    font-family: "Montserrat", sans-serif;
+}
+.heading3{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+.text1{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.copen{
+    font-family: "Montserrat", sans-serif;
+}
+.heading4{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+.text2{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+.factory{
+    font-family: "Montserrat", sans-serif;
+}
+.heading5{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+.text3{
+    font-family: "Roboto", sans-serif;
+}
+#backimg{
+    background-image:url(./images/Illustration/background-factory-open-doors.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 50px 0px;
+}
+.sep{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+.heading6{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 750;
+}
+.text4{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+.june{
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+}
+.meta{
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+}
+.heading7{
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+.text5{
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+}
+
+.oct{
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+}
+.industry{
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+}
+.heading8{
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+.text6{
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+}
+.oct26{
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+}
+.material{
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+}
+.heading9{
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+.text7{
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+}
+#backhalf{
+    background-image:url(./images/Background/background-half-face.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 50px 0px;
+}
+.whitetext{
+    font-size: 50px;
+    font-weight: 800;
+}
+.icon {
+    font-size: 40px;
+}
+.logoheading {
+    font-size: 17px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+
+.logotext {
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+}
+
+.num {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+
+.project {
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+}
+
+#footimg {
+    background-image: url(./images/Background/background-footer.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 120px 15px;
+}
+
+.balt {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+.headquart {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+
+.box {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+.loc {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+.every {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+
+.net {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+.footicon {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+.get {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+.activity {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+.com {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+.colicon{
+    background-color:rgb(251, 189, 2);
+    height: 50px;
+    width: 50px;
+}
+@media only screen and (min-width:768px){
+    .img1{
+       padding: 200px 0px;
+    }
+    #imgtext1{
+        margin-top:150px;
+    }
+    .img2{
+        padding: 200px 0px;
+     }
+     #imgtext2{
+        margin-top:150px;
+    }
+     .img3{
+        padding: 200px 0px;
+     }
+     #imgtext3{
+        margin-top:150px;
+    }
+     .img4{
+        padding: 200px 0px;
+     }
+     #imgtext4{
+        margin-top:150px;
+    }
+     .img5{
+        padding: 200px 0px;
+     }
+     #imgtext5{
+        margin-top:150px;
+    }
+     .img6{
+        padding: 200px 0px;
+     }
+     #imgtext6{
+        margin-top:150px;
+    }
+}
+@media only screen and (min-width:992px){
+   
+    .img1{
+        padding: 100px 0px;
+     }
+     #imgtext1{
+         margin-top:10px;
+     }
+     .img2{
+         padding: 100px 0px;
+      }
+      #imgtext2{
+         margin-top:50px;
+     }
+      .img3{
+         padding: 100px 0px;
+      }
+      #imgtext3{
+         margin-top:30px;
+     }
+      .img4{
+         padding: 100px 0px;
+      }
+      #imgtext4{
+         margin-top:10px;
+     }
+      .img5{
+         padding: 100px 0px;
+      }
+      #imgtext5{
+         margin-top:50px;
+     }
+      .img6{
+         padding: 100px 0px;
+      }
+      #imgtext6{
+         margin-top:50px;
+     }
+     #backimg{
+        height:700px;
+        margin-top: 50px;
+     }
+     .map{
+        position: relative;
+     }
+     .off{
+        position: absolute;
+        top:2270px;
+     }
+    }
+    @media only screen and (min-width:1200px){
+        .navbar{
+            height: 100px;
+        }
+        .off{
+            top:2440px;
+        }
+        #backimg{
+            height:833px;
+            
+         }
+         #imgtext1{
+            margin-top:50px;
+        }
+        #imgtext4{
+            margin-top:50px;
+        }
+    }

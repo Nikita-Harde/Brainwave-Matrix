@@ -1,0 +1,1114 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/* *{
+    border: 2px solid red;
+} */
+#navigation {
+    color: white;
+    display: flex;
+    padding: 20px 10px;
+}
+#navbar button {
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    padding: 13px;
+    font-size: 13px;
+    border: none;
+    margin-left: 70px;
+}
+#mybutton2 {
+    display: none;
+}
+#list {
+    display: none
+}
+#list button {
+    display: none;
+}
+#hero {
+    background-repeat: no-repeat;
+    background-image: url(../images/Background/1\ \(6\).png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: -1px;
+    font-family: "Roboto", sans-serif;
+    padding: 70px 20px;
+    color: white;
+    text-align: center;
+}
+#hero button {
+    padding: 20px 40px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+}
+#hero h2 {
+    letter-spacing: 2px;
+}
+#hero p {
+    font-family: "Playfair Display", serif;
+}
+#fig1 {
+    border: 1px transparent;
+    margin: 25px 15px 25px 15px;
+    background-size: 100% 100%;
+    background-color: white;
+    background-repeat: no-repeat;
+}
+#parent {
+    position: relative;
+}
+#about3 {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    padding: 30px;
+    position: absolute;
+    bottom: 135px;
+    margin: 0px 600px 5px 100px;
+}
+#about3 h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    padding-left: 30px;
+}
+#about3 p {
+    color: #808080;
+    line-height: 20px;
+    font-family: "Roboto", sans-serif;
+}
+#about2 {
+    padding: 20px 15px;
+}
+#about2 h5 {
+    color: #808080;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    letter-spacing: 1px;
+}
+#about2 h3 {
+    padding: 20px 0px;
+    font-weight: 500;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+}
+#about2 p {
+    color: #808080;
+    font-weight: 20;
+    font-size: 18px;
+    font-family: "Playfair Display", serif;
+}
+#about2 li {
+    list-style-type: circle;
+}
+#about2 ul {
+    font-size: 20px;
+    color: #808080;
+    padding: 30px 10px;
+    line-height: 35px;
+}
+#aboutbutton {
+    background-color: transparent;
+    color: rgb(19, 19, 50);
+    padding: 15px 45px;
+    margin: 3px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    border: 0.5px solid;
+}
+#about1 h5 {
+    text-align: center;
+    color: #808080;
+    padding: 25px 20px 20px 20px;
+    letter-spacing: 2px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+#about1 h3 {
+    text-align: center;
+    padding: 5px 10px 25px 5px;
+    font-weight: 500;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    color: rgb(19, 19, 50);
+}
+#interior img {
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 30px 0px;
+    margin-left: 55px;
+}
+#interior h3 {
+    text-align: center;
+    padding: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+#interior p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0px 40px;
+    line-height: 25px;
+    color: #808080;
+    font-family: "Playfair Display", serif;
+}
+#exterior img {
+    height: 200px;
+    width: 200px;
+    margin: 30px 0px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 55px;
+}
+#exterior h3 {
+    text-align: center;
+    padding: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+#exterior p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0px 40px;
+    line-height: 25px;
+    color: #808080;
+    font-family: "Playfair Display", serif;
+}
+#bridge img {
+    height: 200px;
+    width: 200px;
+    margin: 30px 0px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 55px;
+}
+#bridge h3 {
+    text-align: center;
+    padding: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+#bridge p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0px 40px;
+    line-height: 25px;
+    color: #808080;
+    font-family: "Playfair Display", serif;
+}
+#proview {
+    padding: 20px 15px;
+}
+#proview h5 {
+    padding: 35px 0px 5px 0px;
+    color: #808080;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    letter-spacing: 2px;
+}
+#proview h3 {
+    padding: 20px 0px;
+    font-weight: 500;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+}
+#buil {
+    padding: 20px 15px;
+}
+#buil img {
+    height: 200px;
+    width: 290px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#buil1 h5 {
+    color: #808080;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 12px;
+    font-family: "Inter", sans-serif;
+    padding: 20px 10px 10px 15px;
+}
+#buil1 h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 20px 10px 15px 15px;
+}
+#buil1 p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: #808080;
+    font-family: "Playfair Display", serif;
+    padding: 20px 10px 15px 15px;
+}
+#viewbutton {
+    padding: 20px 40px;
+    margin: 40px 0px 0px 0px;
+    letter-spacing: 2px;
+    background-color: transparent;
+    border: 0.5px solid;
+    margin-left: 15px;
+}
+#tower {
+    padding: 20px 15px;
+}
+#tower h5 {
+    color: #808080;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 13px;
+    font-family: "Inter", sans-serif;
+    padding: 20px 0px 10px 0px;
+}
+#tower h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+#tower p {
+    font-weight: 450;
+    font-size: 17px;
+    line-height: 25px;
+    color: #808080;
+    font-family: "Playfair Display", serif;
+}
+#towerbutton {
+    padding: 20px 40px;
+    margin: 40px 0px 0px 0px;
+    letter-spacing: 2px;
+    background-color: transparent;
+    border: 0.5px solid;
+}
+#tower1 img {
+    height: 400px;
+    width: 290px;
+    border: 1px transparent;
+    margin: 25px 15px 25px 15px;
+}
+#design {
+    padding: 20px 15px;
+}
+#design img {
+    height: 200px;
+    width: 290px;
+    margin-top: 20px;
+    background-size: 100% 100%;
+}
+#design1 h5 {
+    color: #808080;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 13px;
+    font-family: "Inter", sans-serif;
+    padding: 20px 0px 10px 15px;
+}
+#design1 h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+#design1 p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: #808080;
+    font-family: "Playfair Display", serif;
+    padding-left: 15px;
+}
+#designbutton {
+    padding: 20px 40px;
+    margin: 40px 0px 0px 0px;
+    letter-spacing: 2px;
+    background-color: transparent;
+    border: 0.5px solid;
+    margin-left: 15px;
+}
+#mirror {
+    padding: 20px 15px;
+}
+#mirror h5 {
+    color: #808080;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 13px;
+    font-family: "Inter", sans-serif;
+    padding: 20px 0px 10px 0px;
+}
+#mirror h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+#mirror p {
+    font-weight: 450;
+    font-size: 19px;
+    line-height: 25px;
+    color: #808080;
+    font-family: "Playfair Display", serif;
+}
+#mirrorbutton {
+    padding: 20px 40px;
+    margin: 40px 0px 0px 0px;
+    letter-spacing: 2px;
+    background-color: transparent;
+    border: 0.5px solid;
+}
+#mirror1 img {
+    height: 400px;
+    width: 290px;
+    border: 1px transparent;
+    background-size: 100% 100%;
+    background-color: white;
+    background-repeat: no-repeat;
+    margin-left: 16px;
+    margin-bottom: 25px;
+}
+#back {
+    height: 500px;
+    width: 320px;
+    background-size: 500% 200%;
+    background-image: url(../images/Background/1\ \(6\).png);
+    background-repeat: no-repeat;
+    font-family: "Roboto", sans-serif;
+    padding-top: 50px;
+    margin-top: 40px;
+}
+#back1 img {
+    height: 150px;
+    width: 150px;
+    margin-left: 80px;
+    background-repeat: no-repeat;
+}
+#back p {
+    font-size: 15px;
+    font-weight: 350;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-family: "Playfair Display", serif;
+}
+#msg {
+    height: 350px;
+    width: 290px;
+    background-size: 100% 100%;
+    margin: 20px 15px;
+}
+#msg1 {
+    padding: 15px;
+}
+#msg1 h5 {
+    color: #808080;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 15px;
+}
+#msg1 h4 {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 30px;
+}
+#email {
+    padding: 15px 70px;
+    margin: 10px 0px;
+    background-color: transparent;
+    border: 0.5px solid;
+    font-family: "Playfair Display", serif;
+    color: #808080;
+}
+#sub {
+    padding: 15px 70px;
+    margin: 10px 0px;
+    background-color: transparent;
+    border: 0.5px solid;
+    font-family: "Playfair Display", serif;
+    color: #808080;
+}
+#mesg {
+    padding: 15px 74px;
+    margin: 10px 0px;
+    background-color: transparent;
+    border: 0.5px solid;
+    font-family: "Playfair Display", serif;
+    color: #808080;
+}
+#send {
+    padding: 15px 0px;
+    margin: 15px 0px;
+    color: black;
+    text-align: center;
+    background-color: transparent;
+    border: 0.5px solid black;
+    font-family: "Playfair Display", serif;
+}
+#footer {
+    background-color: rgb(24, 26, 28);
+    color: white;
+}
+#foot {
+    padding: 50px 15px;
+}
+#footer1 {
+    padding: 20px 0px;
+}
+.myicon {
+    padding: 10px;
+    background-color: rgb(48, 49, 53);
+    border-radius: 50%;
+}
+#lorem {
+    padding: 15px 0px;
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+}
+#lorem1 {
+    padding: 3px 0px;
+    font-size: 18px;
+    color: #808080;
+}
+#mybutton1 {
+    margin: 20px 0px;
+    padding: 15px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+#navigation {
+    padding: 35px 20px 15px 20px;
+    font-family: "Mingzat", sans-serif;
+}
+footer a {
+    text-decoration: none;
+    color: #808080;
+}
+footer li {
+    list-style-type: none;
+    padding: 15px 20px;
+    font-family: "Mingzat", sans-serif;
+}
+#services {
+    background-color: rgb(17, 19, 21);
+    padding: 10px 5px;
+    font-family: "Mingzat", sans-serif;
+}
+#services1 {
+    color: white;
+    padding-left: 15px;
+}
+#services2 {
+    color: #808080;
+    padding: 15px 0px;
+    padding-left: 0px;
+}
+#services2 li {
+    padding-left: 20px;
+}
+#speak {
+    background-color: rgb(24, 26, 30);
+    font-family: "Mingzat", sans-serif;
+}
+#speak1 {
+    color: white;
+    padding: 10px 15px;
+}
+#speak2 {
+    color: #808080;
+    margin: 0px 0px 25px 0px;
+    padding: 10px 15px;
+}
+
+#speak2 h5 {
+    padding: 15px 0px;
+}
+
+#copyright {
+    color: #808080;
+    padding: 50px 15px;
+}
+
+@media only screen and (min-width:768px) {
+    #navbar button {
+        margin-left: 500px;
+    }
+
+    #hero {
+        background-position: top center;
+        padding: 170px 0px;
+    }
+
+    #hero h2 {
+        font-size: 30px;
+        font-weight: 450;
+    }
+
+    #hero p {
+        font-size: 18px;
+        font-weight: 350;
+    }
+
+    #about {
+        display: flex;
+        padding: 100px 15px 10px 15px;
+    }
+
+    #parent {
+        padding-bottom: 30px;
+        margin-bottom: 100px;
+    }
+
+    #fig1 img {
+        height: 430px;
+        width: 300px;
+
+    }
+
+    #about3 {
+        margin-bottom: 45px;
+        height: 160px;
+        width: 150px;
+        margin-left: 70px;
+    }
+
+    #about3 h3 {
+        font-size: 75px;
+        font-weight: 800;
+    }
+
+    #about3 p {
+        text-align: center;
+    }
+
+    #fig1 {
+        margin: 50px 15px 20px 15px;
+    }
+
+    #about2 h3 {
+        font-size: 29px;
+        font-weight: 500;
+    }
+
+    #about2 p {
+        font-size: 17px;
+        font-weight: 170;
+        margin-right: 20px;
+    }
+
+    #about2 ul {
+        font-size: 25px;
+    }
+
+    #aboutbutton {
+        padding: 20px 50px;
+        margin-top: 20px;
+    }
+
+    #intextbri {
+        display: flex;
+    }
+
+    #interior img {
+        height: 150px;
+        width: 150px;
+        margin-top: 80px;
+    }
+
+    #interior {
+        margin-top: -50px;
+    }
+
+    #exterior img {
+        height: 150px;
+        width: 150px;
+    }
+
+    #bridge img {
+        height: 150px;
+        width: 150px;
+    }
+
+    #proview {
+        margin-top: 100px;
+        margin-left: 15px;
+    }
+
+    #building {
+        display: flex;
+    }
+
+    #buil img {
+        height: 250px;
+        width: 300px;
+        margin-left: 15px;
+        margin-top: 30px;
+    }
+
+    #buil1 h4 {
+        font-size: 35px;
+        font-weight: 400;
+    }
+
+    #buil1 p {
+        font-size: 17px;
+        font-weight: 200;
+        margin-right: 15px;
+    }
+
+    #towerr {
+        display: flex;
+        margin-top: 100px;
+    }
+
+    #tower {
+        margin-left: 15px;
+    }
+
+    #tower h5 {
+        letter-spacing: 4px;
+    }
+
+    #tower h4 {
+        font-size: 33px;
+        font-weight: 300;
+    }
+
+    #tower p {
+        font-size: 15px;
+        font-weight: 200;
+    }
+
+    #tower1 img {
+        height: 500px;
+        width: 380px;
+        margin-right: 30px;
+        margin-top: -50px;
+    }
+
+    #designn {
+        display: flex;
+        margin: 50px;
+    }
+
+    #design img {
+        height: 200px;
+        width: 278px;
+        margin-left: -37px
+    }
+
+    #design1 {
+        margin-left: 20px;
+    }
+
+    #design1 h5 {
+        letter-spacing: 4px;
+    }
+
+    #design1 h4 {
+        font-size: 33px;
+        font-weight: 300;
+    }
+
+    #design p {
+        font-size: 15px;
+        font-weight: 200;
+    }
+
+    #mirrorr {
+        display: flex;
+        margin-top: 100px;
+    }
+
+    #mirror h5 {
+        letter-spacing: 4px;
+    }
+
+    #mirror h4 {
+        font-size: 33px;
+        font-weight: 300;
+    }
+
+    #mirror p {
+        font-size: 15px;
+        font-weight: 200;
+    }
+
+    #mirror1 img {
+        height: 500px;
+        width: 380px;
+        margin-right: 30px;
+        margin-top: -50px;
+    }
+
+    #back {
+        width: 768px;
+    }
+
+    #back1 img {
+        margin-left: 320px;
+    }
+
+    #msgg {
+        display: flex;
+    }
+
+    #msg img {
+        height: 350px;
+        width: 300px;
+        margin-left: 15px;
+        margin-top: 53px;
+    }
+
+    #msg1 {
+        margin-left: 15px;
+    }
+
+    #email {
+        padding: 20px 120px;
+    }
+
+    #sub {
+        padding: 20px 120px;
+    }
+
+    #mesg {
+        padding: 30px 125px;
+    }
+
+    #send {
+        padding: 20px 15px;
+    }
+
+    #foot {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #navv {
+        display: flex;
+    }
+
+    #navv {
+        justify-content: space-around;
+        margin-left: 210px;
+    }
+
+    #services {
+        background-color: rgb(24, 26, 28);
+        margin-top: 25px;
+    }
+
+    #speak {
+        margin-top: 25px;
+    }
+
+    #copyright {
+        text-align: center;
+    }
+}
+
+
+@media only screen and (min-width:992px) {
+    #dropdown {
+        display: none;
+    }
+
+
+    #mybutton2 {
+        display: block;
+        padding: 15px;
+        margin-top: -5px;
+        margin-left:25px;
+        width: 100%;
+        background-color: transparent;
+        border: 1px solid black;
+        color: black;
+
+
+    }
+
+    #list {
+        display: block;
+       
+    }
+
+    #list ul {
+        display: flex;
+        justify-content: space-between;
+        margin-left:10px;
+    }
+
+    #list li {
+        list-style-type: none;
+        margin: 0px 15px;
+    }
+
+    #list a {
+        font-family: "Mulish", sans-serif;
+        color: #0d2d3e;
+        text-decoration: none;
+
+    }
+
+    #list select {
+        border: none;
+    }
+
+    #fig1 {
+        height: 95%;
+        width: 100%;
+
+    }
+
+    #fig1 img {
+        height: 80%;
+        width: 100%;
+
+
+    }
+
+    #about {
+        padding-bottom: 0px;
+    }
+
+    #parent {
+        margin-bottom: 0px;
+    }
+
+    #about3 {
+        background-color: white;
+        padding: 40px;
+        position: absolute;
+        bottom: 280px;
+        left: 35px;
+        margin: 0px 600px 5px 100px;
+    }
+
+    #about2 h5 {
+        letter-spacing: 2px;
+    }
+
+    #about2 h3 {
+        font-size: 45px;
+        font-weight: 500;
+    }
+
+    #about2 p {
+        margin: 30px 0px 10px 0px;
+    }
+
+    #about2 {
+
+        padding: 10px 7px 10px 40px;
+        width: 60%;
+    }
+
+    #about1 {
+        margin-top: 0px;
+    }
+
+    #about1 h3 {
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+    #interior img {
+        margin-left: 90px;
+    }
+
+    #exterior img {
+        padding-left: 40px;
+    }
+
+    #bridge img {
+        padding-left: 40px;
+    }
+
+    #proview {
+        margin-top: 100px;
+    }
+
+    #proview h5 {
+        letter-spacing: 2px;
+    }
+
+    #proview h3 {
+        font-size: 40px;
+        font-weight: 500;
+
+    }
+
+    #buil img {
+        height: 350px;
+        width: 450px;
+        margin-bottom: 120px;
+    }
+
+    #buil1 {
+        margin-left: 40px;
+        margin-top: 50px;
+    }
+
+    #tower {
+        margin-right: 50px;
+    }
+
+    #tower1 img {
+        height: 600px;
+        width: 400px;
+    }
+
+    #design img {
+        height: 350px;
+        width: 450px;
+        margin-bottom: 120px;
+    }
+
+    #design1 {
+        margin-left: 40px;
+        margin-top: 50px;
+    }
+
+    #mirror {
+        margin-left: 15px;
+    }
+
+    #mirror h4 {
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+    #mirror1 img {
+        height: 600px;
+        width: 400px;
+    }
+
+    #back {
+        height: 550px;
+        width: 991px;
+    }
+
+    #back1 img {
+        margin-left: 420px;
+        margin-top: 60px;
+    }
+
+    #back p {
+        font-size: 16px;
+        font-weight: 200;
+        line-height: 40px;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    #msgg {
+        margin: 150px 0px;
+    }
+
+    #msg img {
+        height: 420px;
+        width: 410px;
+        margin-right: 25px;
+    }
+
+    #msg1 {
+        margin-left: 140px;
+    }
+
+    #email {
+        padding: 25px 165px;
+    }
+
+    #sub {
+        padding: 25px 165px;
+    }
+
+    #mesg {
+        padding: 30px 168px;
+    }
+
+    #send {
+        padding: 18px 0px;
+    }
+
+    #footer1 {
+        margin-left: 30px;
+        width: 30%;
+    }
+
+    #icon {
+        margin: 30px 15px 0px 0px;
+    }
+
+    #loremm {
+        margin-right: 50px;
+        display: flex;
+        width: 55%;
+    }
+
+    #lorem h2 {
+        font-size: 35px;
+        font-weight: 400;
+    }
+
+    #mybutton1 {
+        padding: 15px;
+        width: 200px;
+    }
+
+    #navv {
+        font-size: 20px;
+        font-weight: 250;
+        margin-left: 340px;
+    }
+}
+@media only screen and (min-width:1200px) {
+#back {
+    height: 550px;
+    width: 100%;
+}
+#list{
+    margin-left: 250px;
+}
+#interior img {
+    margin-left: 130px;
+}
+#exterior img {
+    margin-left: 90px;
+}
+#bridge img {
+    margin-left: 90px;
+}
+#back1{
+    margin-left: 130px;
+}
+}
+@media only screen and (min-width:1400px) {
+    #back {
+        height: 550px;
+        width: 100%;
+    }
+}
